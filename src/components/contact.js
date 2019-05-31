@@ -21,7 +21,7 @@ class Contact extends Component {
                                         <i className="icon-globe-outline"></i>
                                     </div>
                                     <div className="colorlib-text">
-                                        <p><a href="#">oluwatimilehinainaj@gmail.com</a></p>
+                                        <p><a href="#">info@tim.com</a></p>
                                     </div>
                                 </div>
 
@@ -31,7 +31,7 @@ class Contact extends Component {
                                         <i className="icon-map"></i>
                                     </div>
                                     <div className="colorlib-text">
-                                        <p>9, Emmanuel Kolawole Street, Shomolu, Yaba, Lagos 10001</p>
+                                        <p>9, Emmanuel Kolawole Street, Shomolu, Yaba, Lagos</p>
                                     </div>
                                 </div>
 
@@ -41,7 +41,7 @@ class Contact extends Component {
                                         <i className="icon-phone"></i>
                                     </div>
                                     <div className="colorlib-text">
-                                        <p><a href="tel://">+234 9033 536902</a></p>
+                                        <p><a href="tel://">+234 903 353 6902</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -75,6 +75,7 @@ class Contact extends Component {
                         </div>
                     </div>
                 </section>
+
             </div>
         );
     }

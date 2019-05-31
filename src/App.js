@@ -1,17 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import About from './components/about'
 import Sidebar from './components/sidebar'
 import Contact from './components/contact'
-//import './App.css';
+import Experience from './components/experience'
+import Skill from './components/skill'
+import Home from './components/home';
+
 
 function App() {
   return (
-    <div className="colorlib-page">
-        <div className="container-wrap">
-              <About></About>
-              <Sidebar></Sidebar>
-              <Contact></Contact>
+    <div id="colorlib-page">
+        <div id="container-wrap">
+            <Sidebar></Sidebar>
+            <div id="colorlib-main">
+                <Home></Home>
+                <About></About>
+                <Skill></Skill>
+                <Experience></Experience>
+                <Contact></Contact>
+            </div>
         </div>
     </div>
 
